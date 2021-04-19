@@ -11,7 +11,7 @@ submitButton.addEventListener("click", function () {
     /* con questo if verifichiamo se il cliente ha messo dei valori, nel caso in cui non lo ha fatto gli comunichiamo con un alert di inserirlo */
     if (!nameBurger.value) {
         alert("Campo Name Your Burger vuoto, inserire il nome del tuo burger");
-    }
+    }else{
 
     /* andiamo quindi ora ad estrarre  tutti gli ingredienti tramite una variebile */
     var ingredientsList = document.querySelectorAll(".ingredient [type='checkbox']");
@@ -61,7 +61,7 @@ submitButton.addEventListener("click", function () {
 
     
 
-
+    }
 
 
 })
